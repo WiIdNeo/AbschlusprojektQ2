@@ -1,0 +1,159 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title> Musikbibliotek </title>
+    <link rel="stylesheet" type="text/css" href="../CSS/VideoSeite.css">
+  </head>
+
+  <body>
+    <h1> Final Masquerade
+      <div class="dropdown" style="float: right;">
+        <button onclick="BurgerMenu()" class="dropbtn">
+          <img src="../Bilder/BurgerMenu.png">
+        </button>
+        <div id="myDropdown" class="dropdown-content">
+          <a href="../FunktionsHTMl/Menü.html"> Main page </a>
+          <a href="../FunktionsHTMl/LogIn_SignUp_Site.html">SingUp / LogIn</a>
+          <a href="../FunktionsHTMl/MusicLibary.html">Libary</a>
+          <a href="../cgi-bin/funktionsPy/Account.py">Account</a>
+          <a href="../FunktionsHTMl/Playlist erstellen.html">Playlist</a>
+          <a href="../FunktionsHTMl/ImpressumDatenschutz.html">Impressum / Datenschutz</a>
+        </div>
+      </div>
+    </h1>
+    <p> </p>
+    <p> </p>
+    <p> </p>
+    <p> </p>
+    
+  <table style="float: left;">
+    <tr>
+      <th>
+    <iframe width="764" height="430" 
+      src="../Musik/Final Masquerade [Official Music Video] - Linkin Park.mp4" 
+      title="Linkin park - Final Masquerade" 
+      frameborder="0" 
+      style="float: left;"> 
+    </iframe>
+  </th>
+    </tr>
+    <tr>
+      <th>
+    <div> 
+      <a>
+        <button onclick="getCurrentSong25()">
+          <input type="submit" value="nextSong">
+        </form>
+      </button>
+      </a>
+    </div>
+
+  </tr>
+  </table>
+
+
+  <table style="float: right;">
+    <tr>
+      <th>
+        <img id="bild" src= https://th.bing.com/th/id/R.7e36e0f736dc2ed7116b457a6c0ab0af?rik=n3HjLZ5Do4YD7g&riu=http%3a%2f%2fimages.genius.com%2fceb1ad5f941d020a5db86755610a6ec7.953x953x1.jpg&ehk=suZsJmt%2fVE1TReJUy7lf2DNBSmVOQtGvtx%2fPE8Tf4uQ%3d&risl=&pid=ImgRaw&r=0 style="float:right;" id="center"/>
+      </th>
+    </tr>
+    <tr>
+      <th>
+        <div class="w3-container" style="float:right">
+          <table>
+            <tr>
+              <th>
+              </th>
+              <th>
+                <p> Name:</p>
+              </th>
+              <th>
+                <img id="tableSpace" scr=""/>
+              </th>
+              <th>
+                <p> Final Masquerade </p>
+              </th>
+            </tr>
+            <tr>
+              <th>
+              </th>
+              <th>
+                <p> Album:</p>
+              </th>
+              <th>
+                <img id="tableSpace" scr=""/>
+              </th>
+              <th>
+                <p> The Hunting Party </p>
+              </th>
+            </tr>
+            <tr>
+              <th>
+              </th>
+              <th>
+                <p> Interpret:</p>
+              </th>
+              <th>
+                <img id="tableSpace" scr=""/>
+              </th>
+              <th>
+                <p> Linkin Park </p>
+              </th>
+            </tr>
+            <tr>
+              <th>
+              </th>
+              <th>
+                <p> Erscheinungsjahr:</p>
+              </th>
+              <th>
+                <img id="tableSpace" scr=""/>
+              </th>
+              <th>
+                <p> 2014 </p>
+              </th>
+            </tr>
+            <tr>
+              <th>
+              </th>
+              <th>
+                <p> Genre:</p>
+              </th>
+              <th>
+                <img id="tableSpace" scr=""/>
+              </th>
+              <th>
+                <p> Alternative Rock </p>
+              </th>
+            </tr>
+            <tr>
+              <th>
+              </th>
+              <th>
+                <form action="http://localhost:8888/cgi-bin/funktionsPy/PlaylistErstellung.py" method="post">
+               <input type="submit" value="Zur Playlist hinzufuegen" name="Beat It - Michael Jackson">
+               </form>
+              </div>
+              </th>
+            </tr>
+
+            <tr>
+              <th>
+              </th>
+              <th>
+              <form action="http://localhost:8888/cgi-bin/funktionsPy/FavoritenHinzufügen.py" method="post">
+               <input type="submit" value="Zu Favoriten hinzufuegen" name="Beat It - Michael Jackson">
+               </form>
+              </th>
+          </table>
+        </th>
+      </div>
+    
+      </th>
+    </tr>
+  </table>
+
+  </body>
+
+  <script type="text/javascript" src="../JavaScript/BurgerMenue.js"></script>
