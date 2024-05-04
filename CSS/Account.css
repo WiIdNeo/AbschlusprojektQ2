@@ -1,0 +1,22 @@
+h1 { 
+    border: 4px dotted rgb(145, 255, 0); 
+    padding: 25px; 
+    font-variant: small-caps; 
+    font-weight: bold; 
+    font-style: bold; 
+    font-family: Forte; 
+    letter-spacing: 2px; 
+    color: rgb(87, 206, 156); 
+}
+
+body {
+    background-image: url('https://images3.alphacoders.com/584/thumb-1920-58479.jpg');background-position: center; background-attachment: fixed;
+    color: rgb(0, 0, 0); 
+    padding: 14px;  
+}
+
+#textsettings {
+
+    font-size: 20px;
+    color: aliceblue;
+}

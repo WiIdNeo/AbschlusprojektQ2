@@ -1,0 +1,145 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+  <title> Musikbibliotek </title>
+   <link rel="stylesheet" type="text/css" href="../CSS/Wilkommensseite.css">
+   <meta name="viewport" content="with=device-with, initial-scale=1.0">
+   
+  </head>
+  <body>
+    <h1> Musikdatenbank - Die Vielfalt der Musik! 
+      <div class="dropdown" style="float: right;">
+        <button onclick="BurgerMenu()" class="dropbtn">
+          <img src="../Bilder/BurgerMenu.png">
+        </button>
+        <div id="myDropdown" class="dropdown-content">
+          <a href="./LogIn_SignUp_Site.html">SingUp / LogIn</a>
+          <a href="./MusicLibary.html">Libary</a>
+          <a href="http://localhost:8888/cgi-bin/Account.py">Account</a>
+          <a href="http://localhost:8888/cgi-bin/FavouritenHinzufügen.py">Playlist</a>
+          <a href="./ImpressumDatenschutz.html">Impressum / Datenschutz</a>
+        </div>
+      </div>
+    </h1>
+	<p> </p>
+	<p> </p>
+	<p> </p>
+    <p id="textsettings"> Unsere Neuzugänge: </p>
+	
+<table border="0">
+  <tr>
+    <th> 
+      <a href="../Songs/song1.html">
+      <button onclick="getCurrentSong1()">
+        <img id="bild" src= https://th.bing.com/th/id/OIP.gVBCPq6TdtbsRNGD3Y5YGAHaIp?rs=1&pid=ImgDetMain/>
+        <p>K.I.Z- - Hurra, die Welt geht unter</p>
+      </button> 
+    </a>
+    </th>
+
+    <th> 
+      <table border = "0"> 
+        <th>
+          <img id="spaceForBackground" src=""> 
+        </th> 
+      </table> 
+    </th>
+
+    <th> 
+      <a href="../Songs/song2.html">
+      <button onclick="getCurrentSong2()">
+        <img id="bild" src= https://th.bing.com/th/id/R.389aa21c437df0a74e704bc56849569d?rik=9XbijkIXpruP1g&riu=http%3a%2f%2fwww.track4-info.de%2fblog%2fwp-content%2fuploads%2f2017%2f01%2funspecified.jpg&ehk=i5RFEI0O4IUm3XabKA5DlyzvCOnXQ85ViG5HTlsAyZM%3d&risl=&pid=ImgRaw&r=0 />
+        <p>Antilopen Gang - Pizza</p>
+      </button>
+    </a>
+    </th>
+  </tr>
+  <tr> <th><div id="tableSpace"></div> </th></tr>
+
+  <tr>
+    <th> 
+      <a href="../Songs/song5.html">
+      <button onclick="getCurrentSong5()">
+        <img id="bild" src= https://lastfm.freetls.fastly.net/i/u/ar0/7e2052e324fd6753725da8b05bcf4c37.jpg/>
+        <p>Linkin Park - In the End</p>
+      </button> 
+    </a>
+    </th>
+
+    <th> 
+      <table border = "0"> 
+        <th>
+          <img id="spaceForBackground" src=""> 
+        </th> 
+      </table> 
+    </th>
+
+    <th> 
+      <a href="../Songs/song7.html">
+      <button onclick="getCurrentSong7()">
+        <img id="bild" src= https://pic.baike.soso.com/ugc/baikepic2/17924/20200623003458-159828557_jpeg_1000_1000_212625.jpg/300 />
+        <P>Linkin Park - Papercut</P>
+      </button>
+    </a>
+    </th>
+  </tr>
+  <tr> <div id="tableSpace"></div></tr>
+</table>
+
+<table border="0">
+  <tr>
+    <th> 
+      <a href="../Songs/song26.html">
+      <button onclick="getCurrentSong26()">
+        <img id="bild" src= "../Bilder/Anet - Maguma Overture.png"/>
+        <p>Arenanet - Maguma Overture</p>
+      </button> 
+    </a>
+    </th>
+    <th> <div id="tableSpace"></div></th>
+    <th> 
+      <a href="../Songs/song25.html">
+      <button onclick="getCurrentSong25()">
+        <img id="bild" src= https://th.bing.com/th/id/R.7e36e0f736dc2ed7116b457a6c0ab0af?rik=n3HjLZ5Do4YD7g&riu=http%3a%2f%2fimages.genius.com%2fceb1ad5f941d020a5db86755610a6ec7.953x953x1.jpg&ehk=suZsJmt%2fVE1TReJUy7lf2DNBSmVOQtGvtx%2fPE8Tf4uQ%3d&risl=&pid=ImgRaw&r=0 />
+        <p>Michal Jackson - Beat It</p>
+      </button>
+    </a>
+    </th>
+    <th> <div id="tableSpace"></div></th>
+    <th> 
+      <a href="../Songs/song18.html">
+      <button onclick="getCurrentSong18()">
+        <img id="bild" src= "../Bilder/Casper - nur liebe, immer.png"/>
+        <p> Casper - So was von da / Hellwach</p>
+      </button> 
+    </a>
+    </th>
+    <th> <div id="tableSpace"></div></th>
+    <th> 
+      <a href="../Songs/song17.html">
+      <button onclick="getCurrentSong17()">
+        <img id="bild" src= https://th.bing.com/th/id/OIP.fyi_jhHwOVuOE9nnIG2tdAAAAA?rs=1&pid=ImgDetMain />
+        <p> Tristam - Till it's over</p>
+      </button>
+    </a>
+    </th>
+    <th> <div id="tableSpace"></div></th>
+    <th> 
+      <a href="../Songs/song22.html">
+      <button onclick="getCurrentSong22()">
+        <img id="bild" src= "../Bilder/Fall Out Boy - American Beauty, American Psycho.png" />
+        <p> Fall Out Boy - Immortals</p>
+      </button>
+    </a>
+    </th>
+  </tr>
+  <tr> <div id="tableSpace"></div></tr>
+
+
+</table>
+
+
+
+
+
+<script type="text/javascript" src="../JavaScript/Menue.js"> </script>

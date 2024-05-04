@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meine Webseite</title>
+    <style>
+        body {
+            background-image: url('../Bilder/agbhintergrund.png'); background-size: cover;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .button {
+            background-color: #333;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            margin-right: 10px;
+            cursor: pointer;
+        }
+        .content {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Allgemeines über uns!</h1>
+        <button class="button" onclick="showContent('faq')">FAQ</button>
+        <button class="button" onclick="showContent('impressum')">Impressum</button>
+        <button class="button" onclick="showContent('agb')">AGB</button>
+        <button class="button" onclick="showContent('datenschutz')">Datenschutzerklärung</button>
+        <div class="content" id="faq">
+            <h2>FAQ</h2>
+            <p>Hier finden Sie Antworten auf häufig gestellte Fragen.</p>
+        </div>
+        <div class="content" id="impressum">
+            <h2>Impressum</h2>
+            <p>Music Heaven GmbH Musterstraße 123 12345 Musterstadt<br>
+                <br>
+
+                Vertreten durch: Geschäftsführer: Colin Hanschmann Handelsregister: Amtsgericht Musterstadt, HRB 12345 Umsatzsteuer-Identifikationsnummer: DE123456789<br>
+                <br>
+                Kontakt: Telefon: +49 123 456789 E-Mail: kontakt@musicheaven.de<br>
+                <br>
+                Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV: Colin Hanschmann Musterstraße 123 12345 Musterstadt</p>
+        </div>
+        <div class="content" id="agb">
+            <h2>AGB</h2>
+            <p>1. Geltungsbereich<br>
+                Diese AGB regeln die Nutzung unseres Musikstreaming-Dienstes. Durch die Anmeldung und Nutzung unserer Plattform erklären Sie sich mit diesen Bedingungen einverstanden.<br>
+                <br>
+                2. Nutzerkonto<br>
+                Sie müssen sich für die Nutzung unseres Dienstes registrieren.<br>
+                Sie sind für die Sicherheit Ihres Passworts verantwortlich.<br>
+                Die Nutzung des Dienstes ist nur für persönliche, nicht-kommerzielle Zwecke gestattet.<br>
+                <br>
+                3. Lizenz und Rechte<br>
+                Wir gewähren Ihnen eine nicht-exklusive, widerrufliche Lizenz zur Nutzung unseres Musikangebots.<br>
+                Sie dürfen die Musik nur für private Zwecke streamen und nicht weiterverbreiten oder kommerziell nutzen.<br>
+                <br>
+                4. Zahlungen<br>
+                Für werbefreie Dienste oder Premium-Features können Gebühren anfallen.<br>
+                Die Zahlung erfolgt gemäß den angegebenen Preisen und Zahlungsbedingungen.<br>
+                <br>
+                5. Datenschutz<br>
+                Wir erheben personenbezogene Daten gemäß unserer Datenschutzerklärung.<br>
+                Ihre Daten werden vertraulich behandelt und nicht an Dritte weitergegeben.<br>
+                <br>
+                6. Haftungsausschluss<br>
+                Wir übernehmen keine Haftung für Unterbrechungen, technische Probleme oder Inhalte von Dritten.<br>
+                Sie nutzen unseren Dienst auf eigenes Risiko.<br>
+                <br>
+                7. Kündigung<br>
+                Sie können Ihr Konto jederzeit kündigen.<br>
+                Wir behalten uns das Recht vor, Ihr Konto bei Verstoß gegen diese AGB zu sperren.<br>
+                <br>
+                8. Änderungen der AGB<br>
+                Wir können diese AGB jederzeit ändern.<br>
+                Änderungen werden Ihnen per E-Mail mitgeteilt.</p>
+        </div>
+        <div class="content" id="datenschutz">
+            <h2>Datenschutzerklärung</h2>
+            <p>1. Allgemeine Informationen<br>
+                Unser Musikstreaming-Dienst ermöglicht es Nutzern, Songs zu hören, Playlisten zu erstellen und diese mit anderen zu teilen. Künstler können über unsere Plattform ihre Musik vertreiben und Einnahmen generieren. Unternehmen haben die Möglichkeit, Spotify-Songs und -Playlisten auf ihren Webseiten einzubetten. Mit über 400 Millionen Nutzern ist unser Dienst derzeit der größte Musik-Streaming-Anbieter weltweit.<br>
+                <br>
+                2. Erhobene Daten<br>
+                Um unseren Dienst nutzen zu können, müssen sich Benutzer bei uns anmelden. Dabei geben sie folgende Daten an:<br>
+                <br>
+                Name<br>
+                Benutzername<br>
+                Geburtsdatum<br>
+                Geschlecht<br>
+                E-Mail-Adresse<br>
+                Zusätzlich müssen Benutzer ein Passwort generieren. Wer einen werbefreien Account wünscht, muss weitere Informationen wie Adresse, Land und Zahlungsdaten hinterlegen. Sobald sich Benutzer in unserem Netzwerk anmelden, sammeln wir verschiedene Daten zu ihrem Verhalten:<br>
+                <br>
+                Abgespielte Songs<br>
+                Erstellte Wiedergabelisten<br>
+                Interaktion mit anderen Benutzern<br>
+                Genutzte Produkte und Dienstleistungen<br>
+                Spracheinstellungen<br>
+                Touchscreen-Daten<br>
+                Informationen aus Cookies<br>
+                Browsertyp<br>
+                Betriebssystem<br>
+                IP-Adresse<br>
+                Genutztes Endgerät<br>
+                Daten aus den Bewegungssensoren<br>
+                3. Datenweitergabe<br>
+                Wir geben Daten in anonymisierter Form an Dritte weiter, darunter:<br>
+                <br>
+                Werbepartner<br>
+                Rechteinhaber aus der Musikindustrie<br>
+                Zahlungsdienstleister<br>
+                Standardmäßig werten wir auch aus, wie Benutzer Musik über unseren Dienst hören, einschließlich Daten aus dem Beschleunigungssensor. Wir erheben außerdem stets Standortdaten der Nutzer.<br>
+                <br>
+                4. Datenschutzrechtliche Relevanz<br>
+                Unsere Datenschutzbestimmungen regeln die Speicherung und Verwendung der unbedingt erforderlichen Daten. Zusätzlich verwenden wir Daten, um verbesserte Erlebnisse und weitere Funktionen anzubieten. Bitte beachten Sie, dass wir auf verschiedene Arten Daten an Dritte weitergeben.<br>
+                <br>
+                5. Hinweis für Unternehmen<br>
+                Wenn Sie unseren Dienst auf Ihrer Webseite nutzen, müssen Sie in Ihrer Datenschutzerklärung darauf hinweisen, welche Daten Sie erheben und warum Sie diese an uns weiterreichen.</p>
+        </div>
+    </div>
+
+    <script>
+        function showContent(contentId) {
+            const contents = document.querySelectorAll('.content');
+            contents.forEach(content => {
+                content.style.display = 'none';
+            });
+            document.getElementById(contentId).style.display = 'block';
+        }
+    </script>
+</body>
+</html>

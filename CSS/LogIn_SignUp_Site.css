@@ -1,0 +1,66 @@
+h1 { 
+    border: 4px dotted rgb(145, 255, 0); 
+    padding: 25px; 
+    font-variant: small-caps; 
+    font-weight: bold; 
+    font-style: bold; 
+    font-family: Forte; 
+    letter-spacing: 2px; 
+    color: rgb(87, 206, 156); 
+}
+
+body {
+    background-image: url('../Bilder/signup login hintergrund .png'); background-size: cover;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.content {
+    display: none;
+
+}
+
+*.Ueberschrift2 {
+    padding: 20px; 
+    font-weight: bold;
+}
+
+*.Ueberschrift3 {
+    padding: 18px; 
+    font-weight: bold;
+}
+
+#attention {
+    font-weight: bold; 
+    padding: 16px; 
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+}
+
+#register-form {
+    display: none;
+}
+
+#fullscreen {
+    width: 100%;
+}
+
+input[type=text] {
+    background-color: #023d27;
+    color: rgb(173, 15, 15);
+  }

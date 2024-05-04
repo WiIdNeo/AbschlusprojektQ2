@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Willkommen bei Musikdatenbank </title>
+	<link rel="stylesheet" type="text/css" href="../CSS/LogIn_SignUp_Site.css">
+</head>
+<body>
+
+    <p class="Ueberschrift2"> Willkommen bei Musikdatenbank, <br> 
+    um unseren Service zu nutzen, musst <br>
+    du dir ein KOSTENLOSES Benutzerkonto erstellen </p>
+
+	<button onclick="showLogin()">Anmelden</button>
+	<button onclick="showRegister()">Registrieren</button>
+
+	<form id="login-form" action="http://localhost:8888/cgi-bin/logIn.py" method="post">
+		<h2>Anmelden</h2>
+		<label for="Benutzername">Benutzername:</label>
+		<input type="text" id="Benutzername" name="Benutzername" required><br><br>
+		<label for="Password">Passwort:</label>
+		<input type="password" id="password" name="password" required><br><br>
+		<button href="Menü.html"><input type="submit" value="Anmelden"></button>
+	</form>
+
+	<form id="register-form" action="http://localhost:8888/cgi-bin/registry.py" method="post">
+		<h2>Registrieren</h2>
+		<label for="Benutzername">Benutzername:</label>
+		<input type="text" id="Benutzername" name="Benutzername" required><br><br>
+		<label for="Passwort">Passwort:</label>
+		<input type="password" id="Passwort" name="Passwort" required><br><br>
+		<label for="Geburtsjahr">Geburtsjahr:</label>
+		<input type="date" id="Geburtsjahr" name="Geburtsjahr" required><br><br>
+		<button href="Menü.html"><input type="submit" value="Registrieren"></button>
+		
+	</form>
+
+	<script>
+		function showLogin() {
+			document.getElementById("login-form").style.display = "block";
+			document.getElementById("register-form").style.display = "none";
+		}
+
+		function showRegister() {
+			document.getElementById("login-form").style.display = "none";
+			document.getElementById("register-form").style.display = "block";
+		}
+	</script>
+</body>
+</html>
